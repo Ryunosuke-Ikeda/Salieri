@@ -11,3 +11,6 @@
 
 顔画像生成参考コード
 https://github.com/cedro3/StyleCLIP_G
+
+チャットボット参考(未使用)
+http://suriyadeepan.github.io/2016-12-31-practical-seq2seq/
