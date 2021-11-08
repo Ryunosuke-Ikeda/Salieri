@@ -1,0 +1,12 @@
+*.avi
+*.jpg
+*.png
+*.pt
+
+generations/*
+
+__pycache__
+
+.ipynb_checkpoints
+
+.vscode
