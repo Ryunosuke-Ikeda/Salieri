@@ -19,10 +19,14 @@ conda activate Salieri
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 pip install git+https://github.com/openai/CLIP.git
 ```
-
-音声入力コマンド
+### 起動
 ```
-「人の画像を生成　　　：音声で指定した人の画像を生成します．
+python main.py
+```
+
+### 音声入力コマンド
+```
+「人の画像を生成」　　：音声で指定した人の画像を生成します．
 「会話モードを開始」　：雑談をすることができます．
 「会話モードを終了」　：会話モードを終了します．
 「ありがとう」　　　　：来客検出モードに戻ります．
