@@ -2,7 +2,7 @@ import cv2
 from voice_rec import voice_rec
 import time
 
-face_cascade = cv2.CascadeClassifier('C:/Users/student/2021_OC_Ikeda/OpenCV/opencv-master/data/haarcascades/haarcascade_upperbody.xml')
+face_cascade = cv2.CascadeClassifier('./haarcascade_upperbody.xml')
 cap = cv2.VideoCapture(0)
 
 def main():
